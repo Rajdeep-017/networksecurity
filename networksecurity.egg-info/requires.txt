@@ -1,4 +1,4 @@
-pandas 
+pandas
 python-dotenv
 numpy
 scikit-learn
@@ -6,6 +6,3 @@ xgboost
 matplotlib
 pymongo
 certifi
-pymongo[srv]==3.12
-
-##-e .

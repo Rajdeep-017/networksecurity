@@ -1,0 +1,5 @@
+[2026-07-18 02:25:26,657] 13 root-INFO-initiate the data ingestion
+[2026-07-18 02:25:34,944] 55 root-INFO-performed train test split
+[2026-07-18 02:25:34,944] 56 root-INFO-exited split_daata_train_test method of Data_ingestion
+[2026-07-18 02:25:34,944] 59 root-INFO-exporting traintest file path
+[2026-07-18 02:25:35,084] 16 root-INFO-enter the try block

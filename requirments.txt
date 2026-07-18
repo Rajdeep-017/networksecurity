@@ -6,5 +6,6 @@ xgboost
 matplotlib
 certifi
 pymongo
-
+dill
+pyaml
 ##-e .

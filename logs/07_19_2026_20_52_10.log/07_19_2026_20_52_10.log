@@ -1,0 +1,16 @@
+[2026-07-19 20:52:12,939] 16 root-INFO-initiate the data ingestion
+[2026-07-19 20:52:29,485] 55 root-INFO-performed train test split
+[2026-07-19 20:52:29,485] 56 root-INFO-exited split_daata_train_test method of Data_ingestion
+[2026-07-19 20:52:29,486] 59 root-INFO-exporting traintest file path
+[2026-07-19 20:52:29,816] 29 root-INFO-required no of columns :2
+[2026-07-19 20:52:29,817] 30 root-INFO-dataframse has columns: 31
+[2026-07-19 20:52:29,817] 29 root-INFO-required no of columns :2
+[2026-07-19 20:52:29,817] 30 root-INFO-dataframse has columns: 31
+[2026-07-19 20:52:30,077] 23 root-INFO-data transformation config
+[2026-07-19 20:52:30,077] 49 root-INFO-entered initiate_data_transformation
+[2026-07-19 20:52:30,313] 37 root-INFO-enered get_data_transfromated clas
+[2026-07-19 20:52:30,313] 40 root-INFO-initailize KNN computer{'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-07-19 20:52:30,413] 39 root-INFO-entered the save_object method
+[2026-07-19 20:52:30,419] 43 root-INFO-exited the save_object method
+[2026-07-19 20:52:30,424] 28 root-INFO-data validation complete
+[2026-07-19 20:52:30,425] 30 root-INFO-model traininig started

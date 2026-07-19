@@ -47,3 +47,17 @@ class Datavalidationconfig:
             train_pipeline.DATA_VALIDATION_DRIFT_REPORT_FILE_NAME,
         )
 
+class Datatransformationconfig:
+    def __init__(self,train_pipeline_config:trainingpipelineconfig):
+        self.data_transformation_dir:str=os.path.join(train_pipeline_config.artifact_dir,train_pipeline.DATA_TRANSFORMATION_DIR_NAME)
+        self.transformed_train_file_path:str=os.path.join(self.data_transformation_dir,train_pipeline.DATA_TRANSFORMATION_DATA_DIR,train_pipeline.TRAIN_FILE_NAME.replace("csv","npy"),)
+        self.transformed_test_file_path: str=os.path.join(self.data_transformation_dir,train_pipeline.DATA_TRANSFORMATION_DATA_DIR,train_pipeline.TEST_FILE_NAME.replace("csv","npy"),)
+        self.transformed_object_file_path: str=os.path.join(self.data_transformation_dir,train_pipeline.DATA_TRANSFORMATION_DATA_DIR,train_pipeline.PREPROCESSING_OBJECT_FILE_NAME)
+
+class Modeltrainerconfig:
+    def __init__(self,train_pipeline_config:trainingpipelineconfig):
+        self.model_trainer_dir: str=os.path.join(train_pipeline_config.artifact_dir,train_pipeline.MODEL_TRAINER_DIR_NAME)
+        self.trained_model_file_path: str=os.path.join(self.model_trainer_dir,train_pipeline.MODEL_TRAINER_TRAINED_MODEL_DIR,train_pipeline.MODEL_FILE_NAME)
+        self.excepted_accuracy:float=train_pipeline.MODEL_TRAINER_EXCEPTED_SCORE
+        self.overfitting_underfitting_threshold=train_pipeline.MODEL_TRAINER_OVER_FITTING_UNDER_FITTING_THRESHOLD
+        

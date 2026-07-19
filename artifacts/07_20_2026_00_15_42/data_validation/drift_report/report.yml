@@ -1,0 +1,93 @@
+Abnormal_URL:
+  drift_status: false
+  p_value: 1.0
+DNSRecord:
+  drift_status: false
+  p_value: 0.9998688545448693
+Domain_registeration_length:
+  drift_status: false
+  p_value: 0.9734545790368522
+Favicon:
+  drift_status: false
+  p_value: 1.0
+Google_Index:
+  drift_status: false
+  p_value: 0.9734545790368496
+HTTPS_token:
+  drift_status: false
+  p_value: 1.0
+Iframe:
+  drift_status: false
+  p_value: 0.9999955619617864
+Links_in_tags:
+  drift_status: false
+  p_value: 0.517415462832512
+Links_pointing_to_page:
+  drift_status: false
+  p_value: 0.8840743647417879
+Page_Rank:
+  drift_status: false
+  p_value: 0.9994193854231466
+Prefix_Suffix:
+  drift_status: false
+  p_value: 1.0
+Redirect:
+  drift_status: false
+  p_value: 0.9999988894018609
+Request_URL:
+  drift_status: false
+  p_value: 1.0
+Result:
+  drift_status: false
+  p_value: 1.0
+RightClick:
+  drift_status: false
+  p_value: 0.9999983994854099
+SFH:
+  drift_status: false
+  p_value: 0.9999999999981217
+SSLfinal_State:
+  drift_status: false
+  p_value: 0.9993169455931838
+Shortining_Service:
+  drift_status: false
+  p_value: 0.99999999945476
+Statistical_report:
+  drift_status: false
+  p_value: 0.9697727875445914
+Submitting_to_email:
+  drift_status: false
+  p_value: 0.9999988894018609
+URL_Length:
+  drift_status: false
+  p_value: 0.8756389105267035
+URL_of_Anchor:
+  drift_status: false
+  p_value: 0.982673984199772
+age_of_domain:
+  drift_status: false
+  p_value: 0.999999999988434
+double_slash_redirecting:
+  drift_status: false
+  p_value: 0.999999999988434
+having_At_Symbol:
+  drift_status: false
+  p_value: 0.9999999962612656
+having_IP_Address:
+  drift_status: false
+  p_value: 0.9999955619617864
+having_Sub_Domain:
+  drift_status: false
+  p_value: 0.9981098952009998
+on_mouseover:
+  drift_status: false
+  p_value: 0.9999999999981217
+popUpWidnow:
+  drift_status: false
+  p_value: 0.9999999997295194
+port:
+  drift_status: false
+  p_value: 0.9999999997295194
+web_traffic:
+  drift_status: false
+  p_value: 0.9697727875445923

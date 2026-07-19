@@ -8,4 +8,8 @@ certifi
 pymongo
 dill
 pyaml
+mlflow
+fastapi
+uvicorn
+dagshub
 ##-e .

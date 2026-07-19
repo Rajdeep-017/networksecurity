@@ -1,0 +1,20 @@
+[2026-07-20 00:24:59,711] 16 root-INFO-initiate the data ingestion
+[2026-07-20 00:25:09,257] 55 root-INFO-performed train test split
+[2026-07-20 00:25:09,257] 56 root-INFO-exited split_daata_train_test method of Data_ingestion
+[2026-07-20 00:25:09,258] 59 root-INFO-exporting traintest file path
+[2026-07-20 00:25:09,632] 29 root-INFO-required no of columns :2
+[2026-07-20 00:25:09,632] 30 root-INFO-dataframse has columns: 31
+[2026-07-20 00:25:09,632] 29 root-INFO-required no of columns :2
+[2026-07-20 00:25:09,632] 30 root-INFO-dataframse has columns: 31
+[2026-07-20 00:25:10,034] 23 root-INFO-data transformation config
+[2026-07-20 00:25:10,034] 49 root-INFO-entered initiate_data_transformation
+[2026-07-20 00:25:10,232] 37 root-INFO-enered get_data_transfromated clas
+[2026-07-20 00:25:10,232] 40 root-INFO-initailize KNN computer{'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-07-20 00:25:10,292] 39 root-INFO-entered the save_object method
+[2026-07-20 00:25:10,297] 43 root-INFO-exited the save_object method
+[2026-07-20 00:25:10,299] 28 root-INFO-data validation complete
+[2026-07-20 00:25:10,299] 30 root-INFO-model traininig started
+[2026-07-20 00:33:19,268] 39 root-INFO-entered the save_object method
+[2026-07-20 00:33:19,270] 43 root-INFO-exited the save_object method
+[2026-07-20 00:33:19,271] 92 root-INFO-model trainer: Modeltrainerartifact(trained_model_file_path='artifacts\\07_20_2026_00_24_55\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=Classificationmetricsartifact(f1_score=0.9912409498253253, precision_score=0.987790110998991, recall_score=0.9947159841479525), test_metric_artifact=Classificationmetricsartifact(f1_score=0.9856768206576558, precision_score=0.9834943639291466, recall_score=0.9878689850384149))
+[2026-07-20 00:33:19,275] 34 root-INFO-model artifact created

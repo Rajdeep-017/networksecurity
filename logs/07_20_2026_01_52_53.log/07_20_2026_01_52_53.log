@@ -1,0 +1,10 @@
+[2026-07-20 01:53:14,671] 29 root-INFO-start the ingestion
+[2026-07-20 01:53:22,747] 55 root-INFO-performed train test split
+[2026-07-20 01:53:22,747] 56 root-INFO-exited split_daata_train_test method of Data_ingestion
+[2026-07-20 01:53:22,748] 59 root-INFO-exporting traintest file path
+[2026-07-20 01:53:22,850] 32 root-INFO-data ingestion completed Dataingestionartifact(trained_file_path='artifacts\\07_20_2026_01_52_54\\data_ingestion\\data_ingestion\\train.csv', test_file_path='artifacts\\07_20_2026_01_52_54\\data_ingestion\\data_ingestion\\test.csv')
+[2026-07-20 01:54:18,610] 29 root-INFO-start the ingestion
+[2026-07-20 01:54:26,376] 55 root-INFO-performed train test split
+[2026-07-20 01:54:26,376] 56 root-INFO-exited split_daata_train_test method of Data_ingestion
+[2026-07-20 01:54:26,387] 59 root-INFO-exporting traintest file path
+[2026-07-20 01:54:26,507] 32 root-INFO-data ingestion completed Dataingestionartifact(trained_file_path='artifacts\\07_20_2026_01_52_54\\data_ingestion\\data_ingestion\\train.csv', test_file_path='artifacts\\07_20_2026_01_52_54\\data_ingestion\\data_ingestion\\test.csv')

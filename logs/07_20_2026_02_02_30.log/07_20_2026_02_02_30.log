@@ -1,0 +1,22 @@
+[2026-07-20 02:02:34,277] 29 root-INFO-start the ingestion
+[2026-07-20 02:02:42,991] 55 root-INFO-performed train test split
+[2026-07-20 02:02:42,991] 56 root-INFO-exited split_daata_train_test method of Data_ingestion
+[2026-07-20 02:02:42,992] 59 root-INFO-exporting traintest file path
+[2026-07-20 02:02:43,082] 32 root-INFO-data ingestion completed Dataingestionartifact(trained_file_path='artifacts\\07_20_2026_02_02_30\\data_ingestion\\data_ingestion\\train.csv', test_file_path='artifacts\\07_20_2026_02_02_30\\data_ingestion\\data_ingestion\\test.csv')
+[2026-07-20 02:02:43,188] 29 root-INFO-required no of columns :2
+[2026-07-20 02:02:43,188] 30 root-INFO-dataframse has columns: 31
+[2026-07-20 02:02:43,188] 29 root-INFO-required no of columns :2
+[2026-07-20 02:02:43,188] 30 root-INFO-dataframse has columns: 31
+[2026-07-20 02:02:43,364] 42 root-INFO-data validation completed
+[2026-07-20 02:02:43,364] 49 root-INFO-entered initiate_data_transformation
+[2026-07-20 02:02:43,409] 37 root-INFO-enered get_data_transfromated clas
+[2026-07-20 02:02:43,410] 40 root-INFO-initailize KNN computer{'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-07-20 02:02:43,466] 39 root-INFO-entered the save_object method
+[2026-07-20 02:02:43,469] 43 root-INFO-exited the save_object method
+[2026-07-20 02:02:43,470] 39 root-INFO-entered the save_object method
+[2026-07-20 02:02:43,473] 43 root-INFO-exited the save_object method
+[2026-07-20 02:09:20,869] 39 root-INFO-entered the save_object method
+[2026-07-20 02:09:20,869] 43 root-INFO-exited the save_object method
+[2026-07-20 02:09:20,870] 39 root-INFO-entered the save_object method
+[2026-07-20 02:09:20,874] 43 root-INFO-exited the save_object method
+[2026-07-20 02:09:20,875] 94 root-INFO-model trainer: Modeltrainerartifact(trained_model_file_path='artifacts\\07_20_2026_02_02_30\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=Classificationmetricsartifact(f1_score=0.9909417539598199, precision_score=0.988989898989899, recall_score=0.9929013284656728), test_metric_artifact=Classificationmetricsartifact(f1_score=0.9880105669579354, precision_score=0.9850081037277147, recall_score=0.9910313901345291))

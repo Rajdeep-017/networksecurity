@@ -1,0 +1,10 @@
+[2026-07-20 01:56:42,218] 29 root-INFO-start the ingestion
+[2026-07-20 01:56:50,330] 55 root-INFO-performed train test split
+[2026-07-20 01:56:50,331] 56 root-INFO-exited split_daata_train_test method of Data_ingestion
+[2026-07-20 01:56:50,331] 59 root-INFO-exporting traintest file path
+[2026-07-20 01:56:50,420] 32 root-INFO-data ingestion completed Dataingestionartifact(trained_file_path='artifacts\\07_20_2026_01_56_37\\data_ingestion\\data_ingestion\\train.csv', test_file_path='artifacts\\07_20_2026_01_56_37\\data_ingestion\\data_ingestion\\test.csv')
+[2026-07-20 01:56:50,625] 29 root-INFO-required no of columns :2
+[2026-07-20 01:56:50,625] 30 root-INFO-dataframse has columns: 31
+[2026-07-20 01:56:50,625] 29 root-INFO-required no of columns :2
+[2026-07-20 01:56:50,627] 30 root-INFO-dataframse has columns: 31
+[2026-07-20 01:56:50,835] 42 root-INFO-data validation completed

@@ -34,8 +34,7 @@ class Dataingestionconfig:
 class Datavalidationconfig:
     def __init__(self,train_pipeline_config:trainingpipelineconfig):
         self.data_validation_dir:str=os.path.join(
-               train_pipeline_config.artifact_dir,train_pipeline.DATA_VALIDATIOn_DIR_NAME    
-        )
+               train_pipeline_config.artifact_dir,train_pipeline.DATA_VALIDATION_DIR_NAME)
         self.valid_data_dir:str=os.path.join(self.data_validation_dir,train_pipeline.DATA_VALIDATION_VALID_DIR)
         self.invalid_data_dir:str=os.path.join(self.data_validation_dir,train_pipeline.DATA_VALIDATION_INVALID_DIR)
         self.valid_train_file_path:str=os.path.join(self.valid_data_dir,train_pipeline.TRAIN_FILE_NAME)

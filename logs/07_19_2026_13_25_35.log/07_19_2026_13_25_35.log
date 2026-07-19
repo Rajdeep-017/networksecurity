@@ -1,0 +1,8 @@
+[2026-07-19 13:25:37,946] 14 root-INFO-initiate the data ingestion
+[2026-07-19 13:25:57,772] 55 root-INFO-performed train test split
+[2026-07-19 13:25:57,773] 56 root-INFO-exited split_daata_train_test method of Data_ingestion
+[2026-07-19 13:25:57,773] 59 root-INFO-exporting traintest file path
+[2026-07-19 13:25:58,070] 29 root-INFO-required no of columns :2
+[2026-07-19 13:25:58,071] 30 root-INFO-dataframse has columns: 31
+[2026-07-19 13:25:58,071] 29 root-INFO-required no of columns :2
+[2026-07-19 13:25:58,071] 30 root-INFO-dataframse has columns: 31
